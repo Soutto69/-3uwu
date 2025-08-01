@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10x;
+    background-color: blueviolet;
+    padding: 10px;
+
+}
+.container > div{
+
+background-color: black;
+}
+.menu {
+
+grid-column: 3;
+
+}
+.conteudo1 {
+grid-column: 3;
+grid-row: 1 / span 2;
+
+}
+rodape {
+
+grid-column: 1 / span 3;
+}
